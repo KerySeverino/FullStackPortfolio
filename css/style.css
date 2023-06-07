@@ -1,0 +1,21 @@
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    background-color: #d0e4ad;
+}
+
+.navbar{
+    background-color: black;
+}
+.navbar-links{
+    color: whitesmoke;
+}
+
+.My-Image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
