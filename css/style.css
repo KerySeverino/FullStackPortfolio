@@ -1,21 +1,39 @@
-body{
-    background-color: blanchedalmond;
+.all-Content{
+    background-color: #FFFBF8;
 }
 
 h1{
-    background-color: #d0e4ad;
+    background-color: #c0c0c0;
 }
 
 .navbar{
-    background-color: black;
+    background-color: #c0c0c0;
+    display: flex;
+    justify-content: flex-start;
 }
+
 .navbar-links{
     color: whitesmoke;
+}
+.navbar-links:hover{
+    color: lightblue;
+    text-decoration: underline;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.containerImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0c0c0;
 }
 
 .My-Image{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 450px;
+    height: 450px;
     object-fit: cover;
 }
