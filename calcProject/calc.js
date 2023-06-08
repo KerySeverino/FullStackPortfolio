@@ -4,10 +4,8 @@ function display(data){
     return data;
 }
 
-
-function calcMinus(data){
-    document.getElementById('screen').value -= data;
-    return data;
+function clearDisplay(){
+    document.getElementById('screen').value = "";
 }
 
 function solve(){

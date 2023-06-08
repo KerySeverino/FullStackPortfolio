@@ -15,7 +15,7 @@
         </div>
         <div class = "row">
             <div class = "col-2"></div>
-            <div class = "col">
+            <div class = "calc-container">
                 <input id = "screen" type = "text" disabled style = "text-align:right;">
                
                 <!-- First Row -->
@@ -24,6 +24,7 @@
                     <button id = "eight" onclick= "display('8')"> 8 </button>
                     <button id = "nine" onclick= "display('9')"> 9 </button>
                     <button id = "add" onclick= "display('/')"> / </button>
+                    <button id = "add" onclick= "clearDisplay()"> clear </button>
                 </span>
 
                 <!-- Second Row -->
@@ -50,7 +51,7 @@
                     <button id = "add" onclick= "display('+')"> + </button>
                 </span>
             </div>
-            <div class = "col-3"></div>
+            <div class = "col-2"></div>
         </div>
     </body>
 </html>
