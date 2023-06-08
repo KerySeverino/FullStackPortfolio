@@ -1,0 +1,38 @@
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align: center;
+}
+
+.calculator{
+    min-width: 500px;
+    max-width: 500px;
+    background-color: azure;
+    margin: 0 auto;
+    padding: 20%;
+}
+
+#screen{
+    background-color: whitesmoke;
+    border-color: antiquewhite;
+    border: 0.5em;
+    padding: 5%;
+    margin:5%;
+}
+
+#clear{
+    text-align: left;
+}
+
+.button{
+    width: 50px;
+    height:40px;
+}
+
+html{
+    width:100px;
+    height: 500px;
+    margin: 15%;
+}
