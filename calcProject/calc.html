@@ -14,13 +14,15 @@
 
         </div>
         <div class = "row">
-            <div class = "col-1"></div>
-            <div class = "col-2">
-                <input type = "text" disabled>
-                <span style="display: block;">
-                    <button> 1 </button>
-                    <button> 2 </button>
-                    <button> 3 </button>
+            <div class = "col-2"></div>
+            <div class = "col">
+                <input id = "screen" type = "text" disabled style = "text-align:right;">
+                <span style= "display: block;">
+                    <button id = "one" onclick= "display('1')"> 7 </button>
+                    <button id = "two" onclick= "display('2')"> 8 </button>
+                    <button id = "three" onclick= "display('3')"> 9 </button>
+                    <button id = "add" onclick= "display('+')"> + </button>
+                    <button id = "equal" onclick= "solve()"> = </button>
                 </span>
             </div>
             <div class = "col-3"></div>
