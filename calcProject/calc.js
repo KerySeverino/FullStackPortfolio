@@ -1,8 +1,14 @@
+//Updates screen
 function display(data){
     document.getElementById('screen').value += data;
     return data;
 }
 
+
+function calcMinus(data){
+    document.getElementById('screen').value -= data;
+    return data;
+}
 
 function solve(){
     let screen = document.getElementById('screen');

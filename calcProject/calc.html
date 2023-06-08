@@ -17,12 +17,37 @@
             <div class = "col-2"></div>
             <div class = "col">
                 <input id = "screen" type = "text" disabled style = "text-align:right;">
+               
+                <!-- First Row -->
                 <span style= "display: block;">
-                    <button id = "one" onclick= "display('1')"> 7 </button>
-                    <button id = "two" onclick= "display('2')"> 8 </button>
-                    <button id = "three" onclick= "display('3')"> 9 </button>
-                    <button id = "add" onclick= "display('+')"> + </button>
+                    <button id = "seven" onclick= "display('7')"> 7 </button>
+                    <button id = "eight" onclick= "display('8')"> 8 </button>
+                    <button id = "nine" onclick= "display('9')"> 9 </button>
+                    <button id = "add" onclick= "display('/')"> / </button>
+                </span>
+
+                <!-- Second Row -->
+                <span style = "display: block;">
+                    <button id = "four" onclick= "display('4')"> 4 </button>
+                    <button id = "five" onclick= "display('5')"> 5 </button>
+                    <button id = "six" onclick= "display('6')"> 6 </button>
+                    <button id = "add" onclick= "display('*')"> x </button>
+                </span>
+
+                <!-- Third Row -->
+                <span style = "display: block;">
+                    <button id = "one" onclick= "display('1')"> 1 </button>
+                    <button id = "two" onclick= "display('2')"> 2 </button>
+                    <button id = "three" onclick= "display('3')"> 3 </button>
+                    <button id = "add" onclick= "display('-')"> - </button>
+                </span>
+
+                <!-- Four Row -->
+                <span style = "display: block;">
+                    <button id = "one" onclick= "display('1')"> 0 </button>
+                    <button id = "two" onclick= "display('.')"> . </button>
                     <button id = "equal" onclick= "solve()"> = </button>
+                    <button id = "add" onclick= "display('+')"> + </button>
                 </span>
             </div>
             <div class = "col-3"></div>
